@@ -1,0 +1,32 @@
+.btn{
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: 500;
+    border: 1px solid #138904;
+    color: #78d76b;
+    background-color: #138904;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: all ease-in 0.5s;
+}
+.btn:hover{
+    border: 1px solid #23ff06;
+    color:#052900;
+    box-shadow: 2px 2px 2px #1eff00;
+    background-color: #1eff00;
+    font-weight: bold;
+}
+.btn:active,
+.btn.focus{
+    color:#1eff00;
+    background-color: #1eff00;
+}
+.btn:disabled{
+    background-color: #999;
+    color: #444;
+    font-weight: bold;
+    box-shadow: none;
+    cursor: no-drop;
+}

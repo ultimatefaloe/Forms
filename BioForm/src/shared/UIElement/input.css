@@ -1,0 +1,14 @@
+input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid orangered;
+    border-radius: 2px;
+    margin-bottom: 2px;
+}
+.err_danger{
+    font-size: 10px;
+    color: red;
+    padding: 2px;
+}
